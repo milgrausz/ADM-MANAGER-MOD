@@ -48,6 +48,8 @@ fun_bar 'apt-get install ufw' 'apt-get install nmap'
 echo -e "${cor[2]} $text Screen"
 fun_bar 'apt-get install figlet' 'apt-get install bc'
 echo -e "${cor[2]} $text Figlet"
+fun_bar 'apt-get install at' 'apt-get install at'
+echo -e "${cor[2]} $text AT library"
 fun_bar 'apt-get install lynx' 'apt-get install curl'
 sed -i "s;Listen 80;Listen 81;g" /etc/apache2/ports.conf
 service apache2 restart > /dev/null 2>&1
